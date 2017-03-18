@@ -1,0 +1,1425 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+*{
+	padding:0;
+	margin: 0;
+	list-style: none;
+}
+a:focus{
+	outline:none;
+}
+/*index.htm;*/
+.logo{
+	padding: 0;
+	margin:30px 0 0 0;
+}
+.navbar-right{
+	margin:20px 0 10px 0;
+}
+.navbar-right a{
+	font-size: 16px;
+}
+.text{
+	padding: 100px 0px 60px 100px;
+}
+.tab2{
+	background: #f7fbff;
+	padding: 0 0 20px 0;
+	clear: both;
+}
+.tab2-img{
+	width: 160px;
+	height: 160px;
+	padding: 0;
+
+}
+.tab2-text-div{
+	float: left;
+	text-align: center;
+	padding:0 20px;
+}
+.tab2 p:hover{
+	padding-left: 5px;
+}
+#tab3{
+	background:#eeeeee;
+}
+
+.tab4-text h2{
+	font-size: 28px;
+	color: #ccc;
+	margin: 20px 0;
+}
+.tab4-text p{
+	font-size: 16px;
+	margin:20px 0;
+}
+
+#footer {
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: #bbb;
+	background: #f7fbff;
+}
+#navbar-collapse ul li ul{
+	margin-top: 10px;
+	padding: 0;
+}
+
+#navbar-collapse ul li ul li{
+	padding:5px 0;
+	margin: 0;
+}
+#navbar-collapse ul li ul li:hover{
+	background: #eee;
+}
+#navbar-collapse ul li ul li a{
+	font-size: 13px;
+}
+#navbar-collapse ul li ul li a:hover{
+	color: red;
+}
+
+#myCarousel{
+	width: 100%;
+	height: 750px;
+	margin:80px 0 0 0; 
+}
+
+
+.index-content {
+    height: 750px;
+}
+.index-content-xt,
+.index-content-sp,
+.index-content-tq,
+.index-content-zm,
+.index-content-mobo,
+.index-content-dxzm{
+    width: 100%; height: 100%; background-image: url(../img/zm_b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.index-content-tq{background-image: url(../img/tq_b1.jpg);}
+.index-content-xt{background-image: url(../img/xt_b1.jpg);}
+.index-content-sp{background-image: url(../img/sp_b1.jpg);}
+.index-content-dxzm{background-image: url(../img/dxzm_b1.jpg);}
+.index-content-mobo{background-image: url(../img/mobo_b1.png);}
+.index-content-joinus{background-image: url(../img/head-join.jpg);}
+
+.banner-content {
+    position: absolute;
+    height: 98%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    word-wrap: break-word;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*91桌面的壁纸部分*/
+	/*91桌面壁纸部分的安卓下载部分*/
+	.zm-content{
+		text-align: center;
+	}
+	.zm-content h1{
+		font-size: 70px;
+		margin-bottom: 30px;
+		background: url(../img/zm_logo.png) no-repeat center center;
+		text-indent:-999em;
+	}
+	.zm-content p{
+		letter-spacing: 3px;
+		color: #666;
+		font-size: 20px; 
+		margin-bottom: 30px;
+	}
+	/*91桌面壁纸部分的安卓下载部分*/
+	.zm-content .btnDownload-learn-android{
+		margin-left: 267px;
+	}
+	.zm-content .btnDownload-learn-android-div{
+		background: #00bcd5;
+	}
+	.zm-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background: url(../img/android-qr.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.zm-content .btnDownload-android{
+		padding-left: 267px;
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		background: #00bcd5;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; 
+		overflow: hidden;
+		color: #fff;
+		font-weight: 300;
+		border: 1px solid #00bcd5;
+	}
+	.zm-content .btnDownload-android:hover{
+		background: #e1f5f7;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.zm-content .btnDownload-androidqr{ 
+		border-left: none; 
+		background:#00bcd5 url(../img/android-qr.png) no-repeat center center;
+	}
+	.zm-content .btnDownload-androidqr:hover{
+		/*background: #33dde5;*/
+	}
+	.zm-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #00bcd5;
+		border: 1px solid #00bcd5;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.zm-content .btnDownload-ios:hover{
+		background: #e1f5f7;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.zm-content .btnDownload-iosqr{
+		border: 1px solid #00bcd5; 
+		border-left: none; 
+		background: url(../img/ios-qr.png) no-repeat center center;;
+	}
+	.zm-content .btnDownload-iosqr:hover{
+		/*background: #e1f5f7;*/
+	}
+	/*91桌面壁纸部分的ios下载的下拉列表部分*/
+	.zm-content .btnDownload-ios-menu{ 
+		position:absolute; 
+		left:572px; 
+		top:55px; 
+		padding:0; 
+		margin:0; 
+		display:none; 
+	}
+	.zm-content .btnDownload-ios-menu li a{
+		display:block; 
+		width: 230px; 
+		height: 55px; 
+		background-color:#00bcd5; 
+		color:#fff; 
+		font-size:20px; 
+		line-height:55px; 
+		margin-top:1px;
+		text-align: center;;
+	}
+	.zm-content .btnDownload-ios-menu li a:hover{
+		background:#33dde5;
+	}
+	/*91桌面壁纸部分的了解更多功能部分*/
+	.zm-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.zm-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.zm-content .download-read-more a{
+		display:block;
+	}
+	.zm-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+/*黄历锁屏的壁纸部分*/
+	/*黄历壁纸部分的安卓下载部分*/
+	.tq-content{
+		text-align: center;
+	}
+	.tq-content h1{
+		font-size: 70px;
+		margin-bottom: 30px;
+		background: url(../img/tq_logo.png) no-repeat center center;
+		text-indent:-999em;
+	}
+	.tq-content p{
+		letter-spacing: 3px;
+		color: #fff;
+		font-size: 20px; 
+		margin-bottom: 30px;
+	}
+	/*91锁屏壁纸部分的安卓下载部分*/
+	.tq-content .btnDownload-learn-android{
+		margin-left: 267px;
+	}
+	.tq-content .btnDownload-learn-android-div{
+		 background:#FFF;
+	}
+	.tq-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background:#FFF;
+		background: url(../img/btn_qr_3.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.tq-content .btnDownload-android{
+		padding-left: 267px;
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		background: #fff;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; 
+		overflow: hidden;
+		color: #000;
+		font-weight: 300;
+	}
+	.tq-content .btnDownload-android:hover{
+		background: #e1f5f7;
+		color: #;
+		text-decoration:none;
+	}
+	.tq-content .btnDownload-androidqr{ 
+		border-left: none; 
+		background:#fff url(../img/btn_qr_3.png) no-repeat center center;
+	}
+	.tq-content .btnDownload-androidqr:hover{
+		/*background: #e1f5f7;*/
+	}
+	.tq-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #00bcd5;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.tq-content .btnDownload-ios:hover{
+		background: #07588f;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.tq-content .btnDownload-iosqr{
+		border: 1px solid #fff; 
+		border-left: none; 
+		background: url(../img/btn_qr_1.png) no-repeat center center;;
+	}
+	.tq-content .btnDownload-iosqr:hover{
+		/*background: #07588f;*/
+	}
+	/*91桌面壁纸部分的ios下载的下拉列表部分*/
+	.tq-content .btnDownload-ios-menu{ 
+		position:absolute; 
+		left:572px; 
+		top:55px; 
+		padding:0; 
+		margin:0; 
+		display:none; 
+	}
+	.tq-content .btnDownload-ios-menu li a{
+		display:block; 
+		width: 230px; 
+		height: 55px; 
+		background-color:#00bcd5; 
+		color:#fff; 
+		font-size:20px; 
+		line-height:55px; 
+		margin-top:1px;
+		text-align: center;;
+	}
+	.tq-content .btnDownload-ios-menu li a:hover{
+		background:#33dde5;
+	}
+	/*91桌面壁纸部分的了解更多功能部分*/
+	.tq-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.tq-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.tq-content .download-read-more a{
+		display:block;
+	}
+	.tq-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+
+
+/*羞兔相机的壁纸部分*/
+	/*羞兔相机壁纸的文字标题部分*/
+	.xt-content{
+		text-align: center;
+	}
+	.xt-content h1{
+		font-size: 70px;
+		margin-bottom: 30px;
+		background: url(../img/xt_logo.png) no-repeat center center;
+		text-indent:-999em;
+	}
+	.xt-content p{
+		letter-spacing: 3px;
+		color: #000;
+		font-size: 20px; 
+		margin-bottom: 30px;
+	}
+	/*羞兔相机壁纸部分的安卓下载部分*/
+	.xt-content .btnDownload-learn-android{
+		margin-left: 267px;
+	}
+	.xt-content .btnDownload-learn-android-div{
+		 background:#00dcc8;
+	}
+	.xt-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background:#00dcc8;
+		background: url(../img/btn_qr_3.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.xt-content .btnDownload-android{
+		padding-left: 267px;
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		background: #00dcc8;
+		border: 1px solid #00dcc8;
+		border-right: none;
+		border-radius: 2px 0 0 2px; 
+		overflow: hidden;
+		color: #fff;
+		font-weight: 300;
+	}
+	.xt-content .btnDownload-android:hover{
+		background: cyan;
+		color: #;
+		text-decoration:none;
+	}
+	.xt-content .btnDownload-androidqr{ 
+		border-left: none; 
+		background:#00dcc8 url(../img/btn_qr_3.png) no-repeat center center;
+	}
+	.xt-content .btnDownload-androidqr:hover{
+		/*background: #e1f5f7;*/
+	}
+	.xt-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.xt-content .btnDownload-ios:hover{
+		background: #07588f;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.xt-content .btnDownload-iosqr{
+		border: 1px solid #fff; 
+		border-left: none; 
+		background: url(../img/btn_qr_1.png) no-repeat center center;;
+	}
+	.xt-content .btnDownload-iosqr:hover{
+		/*background: #07588f;*/
+	}
+	/*羞兔相机壁纸部分的了解更多功能部分*/
+	.xt-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.xt-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.xt-content .download-read-more a{
+		display:block;
+	}
+	.xt-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+
+/*91锁屏的壁纸部分*/
+	/*91锁屏壁纸部分的安卓下载部分*/
+	.sp-content{
+		text-align: center;
+	}
+	.sp-content h1{
+		font-size: 70px;
+		margin-bottom: 30px;
+		background: url(../img/sp_logo.png) no-repeat center center;
+		text-indent:-999em;
+	}
+	.sp-content p{
+		letter-spacing: 3px;
+		color: blue;
+		font-size: 20px; 
+		margin-bottom: 20px;
+	}
+	/*91锁屏壁纸部分的安卓下载部分*/
+	.sp-content .btnDownload-learn-ios{
+		margin-left: 400px;
+	}
+	.sp-content .btnDownload-learn-ios-div{
+		 background:#FFF;
+	}
+	.sp-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background:#FFF;
+		background: url(../img/btn_qr_3.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.sp-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #00bcd5;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.sp-content .btnDownload-ios:hover{
+		background: #07588f;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.sp-content .btnDownload-iosqr{
+		border: 1px solid #fff; 
+		border-left: none; 
+		background: url(../img/btn_qr_1.png) no-repeat center center;;
+	}
+	.sp-content .btnDownload-iosqr:hover{
+		/*background: #07588f;*/
+	}
+	/*91桌面壁纸部分的了解更多功能部分*/
+	.sp-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.sp-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.sp-content .download-read-more a{
+		display:block;
+	}
+	.sp-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+
+/*点心桌面的壁纸部分*/
+	/*点心桌面壁纸部分的安卓下载部分*/
+	.dxzm-content{
+		text-align: center;
+	}
+	.dxzm-content h1{
+		font-size: 70px;
+		margin-bottom: 30px;
+		background: url(../img/qq.png) no-repeat center center;
+		text-indent:-999em;
+	}
+	.dxzm-content p{
+		letter-spacing: 3px;
+		color: #fff;
+		font-size: 30px; 
+		margin-bottom: 30px;
+	}
+	/*点心桌面壁纸部分的安卓下载部分*/
+	.dxzm-content .btnDownload-learn-ios{
+		margin-left: 400px;
+	}
+	.dxzm-content .btnDownload-learn-ios-div{
+		 background:#FFF;
+	}
+	.dxzm-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background:#FFF;
+		background: url(../img/btn_qr_3.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.dxzm-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.dxzm-content .btnDownload-ios:hover{
+		background-color: rgba(255,255,255,0.2);
+		text-decoration:none;
+	}
+	.dxzm-content .btnDownload-iosqr{
+		border: 1px solid #fff; 
+		border-left: none; 
+		background: url(../img/btn_qr_1.png) no-repeat center center;;
+	}
+	.dxzm-content .btnDownload-iosqr:hover{
+		/*background: #07588f;*/
+	}
+	/*点心桌面壁纸部分的了解更多功能部分*/
+	.dxzm-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.dxzm-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.dxzm-content .download-read-more a{
+		display:block;
+	}
+	.dxzm-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+
+/*Mobo的壁纸部分*/
+	/*Mobo壁纸的文字标题部分*/
+	.mobo-content{
+		text-align: center;
+	}
+	.mobo-content h1{
+		padding-top: 20px;
+		font-size: 53px;
+		color: #fffffd;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	.mobo-content p{
+		letter-spacing: 3px;
+		color: #fffddd;
+		font-size: 24px; 
+		font-weight: 100;
+		margin-bottom: 30px;
+	}
+	/*Mobo壁纸部分的安卓下载部分*/
+	.mobo-content .btnDownload-learn-android{
+		margin-left: 267px;
+	}
+	.mobo-content .btnDownload-learn-android-div{
+		 background:#00dcc8;
+	}
+	.mobo-content .btnDownload-qr{
+		float: left;
+		margin: 0;
+		width: 50px; 
+		height: 55px;
+		border-left: none;
+		border-radius: 0 0 0 0;
+		background:#00dcc8;
+		background: url(../img/btn_qr_3.png) no-repeat center center;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.mobo-content .btnDownload-android{
+		padding-left: 267px;
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 280px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		background: #00dcc8;
+		border: 1px solid #00dcc8;
+		border-right: none;
+		border-radius: 2px 0 0 2px; 
+		overflow: hidden;
+		color: #fff;
+		font-weight: 300;
+	}
+	.mobo-content .btnDownload-android:hover{
+		background: cyan;
+		color: #;
+		text-decoration:none;
+	}
+	.mobo-content .btnDownload-ios{
+		margin: auto 0;
+		float: left;
+		margin: 0 0 0 13px;
+		display: block; 
+		padding: 0 30px;
+		width: 230px; 
+		height: 55px; 
+		line-height: 55px; 
+		border-radius: 0px;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-right: none;
+		border-radius: 2px 0 0 2px; overflow: hidden;
+	}
+	.mobo-content .btnDownload-ios:hover{
+		background: #07588f;
+		color: #00bcd5;
+		text-decoration:none;
+	}
+	.mobo-content .btnDownload-iosqr{
+		border: 1px solid #fff; 
+		border-left: none; 
+		background: url(../img/btn_qr_1.png) no-repeat center center;;
+	}
+	.mobo-content .btnDownload-iosqr:hover{
+		/*background: #07588f;*/
+	}
+	/*Mobo壁纸部分的了解更多功能部分*/
+	.mobo-content .download-read-more-container{
+		position:relative; 
+		width:970px; 
+		margin:0 auto;
+	}
+	.mobo-content .download-read-more{ 
+		position: absolute; 
+		right:0px; 
+		top:490px; 
+		font-size:16px; 
+		line-height: 40px; 
+		z-index:99;
+	}
+	.mobo-content .download-read-more a{
+		display:block;
+	}
+	.mobo-content .download-read-more .glyphicon-upload{
+	    background:url(../img/more-icon.png) no-repeat 0 0;
+	    text-indent:-999em;
+	    display:inline-block; width:20px; height:20px;
+	    top:0;
+	    margin-left:6px;
+	}
+
+
+
+/*91桌面.html*/
+
+
+.col{
+	text-align: center;
+}
+.col h1{
+	color: #444;
+}
+.col p{
+	color:#666;
+}
+
+.tab22{
+	padding: 60px 0;
+	background: #f7fbff;
+}
+.tab22 img{
+	padding-left: 100px;
+}
+.tab22 h2{
+	margin:0 0 40px 0;
+}
+.tab22 p{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.tab31{
+	padding: 60px 0;
+	background: paleturquoise;
+}
+.tab31 h2{
+	margin:0 0 40px 0;
+}
+.tab31 p{
+	font-size: 18px;
+	line-height: 27px;
+}
+.tab333{
+	padding: 60px 0 0 0;
+	background: paleturquoise;
+}
+.tab333 h2{
+	margin:0 0 40px 0;
+}
+.tab333 p{
+	font-size: 18px;
+	line-height: 27px;
+}
+.tab3{
+	padding: 60px 0;
+}
+.tab3 h2{
+	margin:0 0 40px 0;
+}
+.tab3 p{
+	font-size: 18px;
+	line-height: 27px;
+}
+.tab33{
+	padding: 60px 0 0 0;
+}
+.tab33 h2{
+	margin:0 0 40px 0;
+}
+.tab33 p{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+/**91锁屏.html*/
+.inner-content{
+	margin-top: 80px;
+}
+
+
+/*mobo桌面.html*/
+.img-text{
+	padding: 80px 0 40px 120px;
+
+}
+.img-text .img-text-title{
+	float: left;
+}
+.img-text .img-text-title h2{
+	margin: 26px 0;
+	color: #000555;
+}
+.img-text .img-text-title p{
+	font-size: 16px;
+	color: #666;
+}
+.img-text2{
+	padding: 80px 0 40px 30px;
+}
+.img-text2 .img-text-title{
+	float: left;
+}
+.img-text2 .img-text-title h2{
+	margin: 26px 0;
+	color: #000555;
+}
+.img-text2 .img-text-title p{
+	font-size: 16px;
+	color: #666;
+}
+
+
+
+ .media-dialog {
+    display: block;
+    margin-left: 0;
+    word-wrap: break-word;
+    min-height: 100px;
+    height: 100%;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 50;
+    padding: 20px;
+}
+
+ .media-dialog p{
+    position: relative;
+    z-index: 50;
+    font-size: 17px;
+}
+
+ .media-dialog .bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #f7f7f7;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    overflow: visible;
+}
+.media-dialog .arrow {
+    display: block;
+    border: 10px solid;
+    border-color: transparent #f7f7f7 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+    top: 20%;
+    z-index: 20;
+    box-sizing: content-box;
+}
+.media-text{
+	padding: 80px 0;
+}
+
+
+
+/**about.html*/
+.jumbotron{
+	padding:0;
+	margin: 80px 0 0 0;
+	width: 100%; 
+	height: 300px;
+	
+}
+.jumbotron-about{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/head.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.about{
+	padding: 60px 0;
+}
+.about-col1{
+	padding: 20px 0 0 40px;
+}
+.about-col1 h2{
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	padding: 20px 0 30px 0;
+}
+.about-col1 p{
+	text-align: justify;
+	font-size: 14px;
+	padding: 0 60px 20px 0;
+	line-height: 25px;
+	color: #000；
+}
+.about-col1 h4{
+	padding: 20px 0 40px 0;
+	font-size: 15px;
+	font-weight: 900; 
+}
+.about-col1 .about-p{
+	padding:0 60px 0 0;
+	line-height: 20px;
+}
+.about-col1 span{
+	font-weight: 900;
+}
+.about-col2{
+	padding: 20px 0 0 40px;
+}
+.about-col2 h2{
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	padding: 20px 0 10px 0;
+}
+.about-col2 h3{
+	padding:20px 0 0px 0; 
+	font-size: 20px;
+}
+.about-col2 p{
+	padding-right: 80px;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 25px;
+	color: #000；
+}
+.about-col3{
+	padding: 20px 0 0 40px;
+}
+.about-col3 h2{
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	padding: 20px 0 30px 0;
+}
+.about-col3 p{
+	padding: 0 80px 30px 0;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 25px;
+	color: #000；
+}
+
+/*support-html*/
+.support{
+	padding:100px 0;
+	background: #eee;
+}
+.jumbotron-support{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/head_support.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+
+.support-col .thumbnail{
+	border: 0px solid black;
+	background: #eee;
+}
+.support-col h2{
+	text-align: center;
+	font-size: 25px;
+}
+.support-col .caption a{
+	color:#000;
+}
+.support-col .caption a:hover{
+	text-decoration: none;
+}
+
+/*joinus.html*/
+
+.index-content-joinus{
+    width: 100%; height: 85%; background-image: url(../img/head-join.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+	.joinus-content h1{
+		padding: 180px 0 0 270px;
+		font-size: 53px;
+		color: #fffffd;
+		font-weight: 100;
+		margin-bottom: 60px;
+
+	}
+	.joinus-content p{
+		padding-left:200px;
+		color: #fffddd;
+		font-size: 16px;
+		margin: 5px 0; 
+	}
+	.caption-content {
+	    position: absolute;
+	    height: 98%;
+	    right: 10%;
+	    left: 10%;
+	    text-align: left;
+	    word-wrap: break-word;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	}
+
+	.layer{
+		max-width: 960px;
+		margin: auto; 
+		padding-bottom: 40px;
+	}
+	.layer .layer-nav{
+		width: 100%;
+		height: 76px;
+		margin-top: -40px;
+	}
+	.layer ul{ 
+		margin: 0;
+		padding:0; 
+		list-style: none;
+		border-bottom: 1px solid cyan; 
+		width: 100%;
+		height: 75px;
+	}
+	.layer ul li{
+		text-align: center;
+		margin: 0;padding:0;
+		float: left;
+		font-size: 20px;
+		width: 130px;
+		height: 75px;
+		line-height: 75px;
+		margin: 0 7px;
+		color: #000;
+	}
+	.layer .current{
+		color:  #3c79e7;
+		border-bottom: 2px solid  #3c79e7;	
+	}
+	.layer a{
+		text-decoration: none;
+	}
+	
+
+/*faq-home.html*/
+.scroll1{
+		background: #f7fbff;
+}
+.scroll-div{
+
+    margin: 0 auto;
+    padding: 40px 0;
+    margin-top:80px; 
+    max-width: 960px;
+}
+.faq-scroll {
+    float: right;
+    width: 660px;
+    border-bottom: 1px solid cyan;
+}
+.privacy-policy-layer{
+	text-align: left;
+	padding:10px 10px 0 0;
+	 margin: 0 5%;
+	 position: relative;
+    max-width: 960px;
+}
+	.privacy-policy-tab a.current span{
+        background: url(../img/nav_current_line.png) repeat-x left bottom;
+        background-size: 100% 2px;
+        color: #3c79e7;
+    }
+.privacy-policy-tab a {
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 75px;
+    text-align: center;
+    color: #444;
+}
+.privacy-policy-tab a:hover,
+.privacy-policy-tab a span:hover,
+.privacy-policy-tab a:link,
+.privacy-policy-tab a span:link,
+.privacy-policy-tab a:visited,
+.privacy-policy-tab a span:visited{
+	text-decoration: none;
+}
+.privacy-policy-tab a span {
+    display: block;
+    line-height: 75px;
+    font-size: 21px;
+}
+.pp-content-layer{
+	margin: 80px 0 0 0;
+}
+.faq-layer{
+	max-width: 960px;
+	
+	float: left;
+
+} 
+.faq-menu{
+	width: 320px;
+	float: left;
+	
+}
+.faq-menu h2{
+	font-size: 45px;
+	padding:0 0 20px 0;
+	color: #444;
+}
+.faq-menu .faq-directory{
+	top: 0;
+	left: 0;
+}
+.faq-menu .faq-directory li{
+	width: 250px;
+    font-size: 18px;
+    padding: 26px 0 10px 0;
+}
+.faq-underline{
+	border-bottom: 1px solid cyan;
+}
+.faq-layer ul.faq-directory li a.current,
+.faq-layer ul.faq-directory li a:hover {
+    color: #3c79e7;
+}
+.faq-menu .faq-directory li a{
+	text-decoration: none;
+	color: #444;
+}
+.faq-menu .faq-directory li a.current span{
+	color: #3c79e7;
+	text-decoration: none;
+	display: block;
+}
+.faq-menu .faq-directory li a span{
+	
+	font-size: 18px;
+}
+.faq-menu .faq-directory li a:hover,
+.faq-menu .faq-directory li a span:hover{
+	text-decoration: none;
+	color: #3c79e7;
+}
+.faq-menu.faq-directory li a:link,
+.faq-menu .faq-directory li a span:link,
+.faq-menu .faq-directory li a:visited,
+.faq-menu .faq-directory li a span:visited{
+	text-decoration: none;
+}
+
+.answer{
+	padding:60px 0;	
+}
+.answer p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #999;
+}
+.answer-top-margin{
+	display: none;
+}
+.pp-content-layer.active{
+	display: block;
+}
+.pp-content-layer{
+	display: none;
+}
+
+
+/*about.html*/
+
+.scroll2{
+	background: #f7fbff;
+}
+.print{
+    margin: 0 auto;
+    max-width: 960px;
+
+}
+.faq-print {
+    float: right;
+    width: 960px;
+    border-bottom: 1px solid cyan;
+}
+.answer1{
+	padding:60px 0;
+}
+.answer1 p{
+	margin:60px 0;
+}
+.aaa{
+	display: block;
+}
+.bbb{
+	display: none;
+}
+
+/*contactus.html*/
+.contact-col{
+	padding-left:40px;
+}
+.contact-col h2{
+	padding:0 0 40px 0;
+	font-weight: 700;
+}
+.contact-col p{
+	font-size: 16px;
+	padding:20px 0;
+	line-height: 26px;
+}
+
+	.nav-pills {
+			width: 150px;
+		}
+		.nav-pills.affix {
+			bottom: 960;
+		}
+		.joinus-col{
+			padding:0 60px;
+			text-align: justify;
+		}
+	.joinus-col h2{
+		font-weight: 700;
+		padding:20px 0;
+	}
+
+	.joinus-col h3{
+		font-size: 20px;
+		padding:20px 0;
+		font-weight: 700;
+	}
+	.joinus-col p{
+		line-height: 24px;
+	}
+
+
+	/*danger.html*/
+	.index-content1 {
+    height: 450px;
+}
+
+.index-content1-danger{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/fcm01.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;  
+}
+
+.danger-col1{
+	padding:40px 40px 40px 20px; 
+	margin: 40px 0;
+}
+.danger-col2{
+	padding:40px 40px 40px 0;
+	margin: 40px 0;
+}
+.indulged-1{
+	text-align:center;
+}
+.panel-body{
+	padding:20px 270px;
+
+}
