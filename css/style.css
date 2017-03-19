@@ -40,8 +40,10 @@ a:focus{
 	text-align: center;
 	padding:0 20px;
 }
-.tab2 p:hover{
+.tab2 p a:hover{
+	color:cyan;
 	padding-left: 5px;
+	text-decoration: none;
 }
 #tab3{
 	background:#eeeeee;
@@ -55,6 +57,9 @@ a:focus{
 .tab4-text p{
 	font-size: 16px;
 	margin:20px 0;
+}
+.tab4-text p a{
+	color:black;
 }
 
 #footer {
@@ -1422,4 +1427,47 @@ a:focus{
 .panel-body{
 	padding:20px 270px;
 
+}
+
+/**privacyitem.html**/
+#container-color{
+	background-color: #F8F8FF;
+}
+.privacy-col{
+	padding-left:100px;
+}
+.privacy-col h3{
+	padding-top:150px; 
+	font-weight: 700;
+	color: blue;
+}
+.privacy-col h4{
+	font-weight:600;
+}
+.privacy-col p{
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/**duty.html**/
+#container-color{
+	background-color: #F8F8FF;
+}
+.duty-col{
+	padding-left:100px;
+}
+.duty-col h3{
+	padding-top:150px; 
+	font-weight: 700;
+	color: blue;
+}
+.duty-col h4{
+	font-weight:600;
+}
+.duty-col p{
+	font-size: 16px;
+	line-height: 26px;
+}
+.duty-col p span{
+	color:red;
 }
